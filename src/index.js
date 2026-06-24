@@ -36,9 +36,11 @@ async function main() {
     }
 
     const commitMessage = generateCommitMessage(status.files);
-    await git.add('.');
-    await git.commit(commitMessage);
-    console.log(`Committed with message: "${commitMessage}"`);
+
+    console.log('Suggested commit message:');
+    console.log('');
+    console.log(commitMessage);
+    
   } catch (err) {
     console.error('Git operation failed:', err);
     process.exit(1);
