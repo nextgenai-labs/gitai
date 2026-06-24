@@ -1,6 +1,6 @@
 {
   "name": "@nextgenai-labs/gitai",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "AI-powered Git commit message generator using Gemini, Ollama, and Conventional Commits.",
   "main": "src/index.js",
   "bin": {
