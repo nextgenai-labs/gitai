@@ -1,6 +1,6 @@
 # GitAI
 
-AI-powered git commit message generator for developers.
+AI-powered Git commit message generator using Google Gemini and Ollama.
 
 ## Features
 
@@ -15,13 +15,13 @@ AI-powered git commit message generator for developers.
 ## Installation
 
 ```bash
-npm install
+npm install -g @nextgenai-labs/gitai
 ```
 
 ## Usage
 
 ```bash
-node src/index.js
+gitai
 ```
 
 ## AI Flow
@@ -40,7 +40,7 @@ feat(auth): add email validation
 
 ## Roadmap
 
-* [ ] Publish to npm
+* [x] Publish to npm
 * [ ] Interactive CLI Mode
 * [ ] Advanced Git Diff Analysis
 * [ ] Multi-Model Support
@@ -48,3 +48,5 @@ feat(auth): add email validation
 ## License
 
 MIT
+
+Built by NextGenAI Labs.
