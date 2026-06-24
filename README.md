@@ -4,11 +4,13 @@ AI-powered git commit message generator for developers.
 
 ## Features
 
-* Analyze Git repository changes
-* Generate commit message suggestions
-* Conventional Commit support (planned)
-* Local AI support via Ollama (planned)
-* Open Source
+* Git Diff Analysis
+* AI Commit Message Generation
+* Google Gemini 2.5 Flash Integration
+* Ollama Local AI Support
+* Conventional Commit Support
+* Multi-Level Fallback System
+* Open Source CLI Tool
 
 ## Installation
 
@@ -22,25 +24,26 @@ npm install
 node src/index.js
 ```
 
-Example:
+## AI Flow
 
-```text
+1. Google Gemini 2.5 Flash
+2. Ollama Local Model
+3. Rule-Based Fallback
+
+## Example
+
 Suggested commit message:
 
-feat: update 3 file(s)
+```text
+feat(auth): add email validation
 ```
 
 ## Roadmap
 
-* [ ] Ollama Integration
-* [ ] Git Diff Analysis
-* [ ] Conventional Commits
-* [ ] npm Package Release
-* [ ] OpenAI Integration
-
-## Contributing
-
-Contributions are welcome.
+* [ ] Publish to npm
+* [ ] Interactive CLI Mode
+* [ ] Advanced Git Diff Analysis
+* [ ] Multi-Model Support
 
 ## License
 
